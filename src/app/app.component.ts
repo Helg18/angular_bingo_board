@@ -91,7 +91,6 @@ export class AppComponent {
     this.boardArray.push(this.o);
 
     this.transpose(this.boardArray);
-    console.log(this.boardArray);
   }
 
   transpose(a) {
